@@ -24,7 +24,6 @@ const FACEBOOK_URL = brand.facebook
 const linkDefs = [
   { to: '/', key: 'home' },
   { to: '/shop', key: 'shop' },
-  { to: '/about', key: 'about' },
   { to: '/contact', key: 'contact' },
 ]
 

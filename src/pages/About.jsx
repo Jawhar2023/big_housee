@@ -7,48 +7,57 @@ export default function About() {
   const { t } = useTranslation()
 
   return (
-    <div>
+    <div className="fade-in">
+      {/* Premium Hero Section */}
       <section className="about-hero">
         <div className="container">
           <p
             style={{
               color: 'var(--color-accent)',
               fontWeight: 700,
-              letterSpacing: '0.08em',
+              letterSpacing: '0.1em',
               textTransform: 'uppercase',
-              fontSize: '0.8rem',
+              fontSize: '0.9rem',
+              marginBottom: '1rem',
             }}
           >
             {t('brand.name')}
           </p>
           <h1>{t('about.title')}</h1>
           <p>{t('about.intro')}</p>
-          <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-            <Link to="/shop" className="btn">
+          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '2rem' }}>
+            <Link to="/shop" className="btn btn-accent btn-large">
               {t('about.seeShop')}
             </Link>
-            <a href={brand.facebook} target="_blank" rel="noreferrer" className="btn btn-outline">
-              {t('nav.facebook')}
-            </a>
+            <Link to="/contact" className="btn btn-outline btn-large">
+              {t('contact.title')}
+            </Link>
           </div>
         </div>
       </section>
 
+      {/* Our Story Section */}
       <section className="section">
         <div className="container about-story">
           <img src="/brand/logo.jpg" alt={t('brand.name')} className="about-logo-full" />
-          <div>
+          <div className="slide-in-right">
             <h2>{t('about.mission')}</h2>
             <p>{t('about.missionP1')}</p>
             <p>{t('about.missionP2')}</p>
-            <a href={brand.facebook} target="_blank" rel="noreferrer" className="btn btn-accent">
-              {t('about.openFacebook')}
-            </a>
+            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '2rem' }}>
+              <a href={brand.facebook} target="_blank" rel="noreferrer" className="btn btn-accent">
+                {t('about.openFacebook')}
+              </a>
+              <a href={brand.whatsappUrl} target="_blank" rel="noreferrer" className="btn btn-outline">
+                {t('contact.whatsapp', 'WhatsApp')}
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="section" style={{ background: 'rgba(255,255,255,0.7)' }}>
+      {/* Why Choose Us Section */}
+      <section className="section" style={{ background: 'var(--color-soft)' }}>
         <div className="container">
           <div className="section-head">
             <div>
@@ -73,20 +82,35 @@ export default function About() {
         </div>
       </section>
 
+      {/* Product Showcase Gallery */}
       <section className="section">
-        <div className="container about-gallery">
-          <img src={products[1].images[0]} alt="" />
-          <img src={products[6].images[0]} alt="" />
+        <div className="container">
+          <div className="section-head">
+            <h2>{t('about.products', 'Our Products')}</h2>
+            <Link to="/shop" className="btn btn-outline">
+              {t('about.seeShop')}
+            </Link>
+          </div>
+          <div className="about-gallery">
+            <img src={products[1].images[0]} alt="" loading="lazy" />
+            <img src={products[6].images[0]} alt="" loading="lazy" />
+          </div>
         </div>
       </section>
 
+      {/* Final CTA Section */}
       <section className="section" style={{ paddingTop: 0 }}>
-        <div className="container" style={{ textAlign: 'center', maxWidth: 640, margin: '0 auto' }}>
+        <div className="container" style={{ textAlign: 'center', maxWidth: '680px', margin: '0 auto' }}>
           <h2>{t('about.ready')}</h2>
-          <p>{t('about.readySub')}</p>
-          <Link to="/shop" className="btn btn-accent">
-            {t('about.shop')}
-          </Link>
+          <p style={{ fontSize: '1.1rem', marginBottom: '2rem' }}>{t('about.readySub')}</p>
+          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <Link to="/shop" className="btn btn-accent btn-large">
+              {t('about.shop')}
+            </Link>
+            <Link to="/contact" className="btn btn-outline btn-large">
+              {t('nav.contact')}
+            </Link>
+          </div>
         </div>
       </section>
     </div>
