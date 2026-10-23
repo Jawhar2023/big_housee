@@ -228,8 +228,89 @@ const productAssets = [
   ['mini-box-pizza', 'mini mox pizza.jpg', 'Mini boîte à pizza', 'Emballages', 13],
   ['papier-cuisson', 'papier cuissante.jpg', 'Papier cuisson', 'Emballages', 2.5],
   
+  // Contenants alimentaires - Emballages
+  ['aluminum-containers-1', 'aluminum containers 1.jpg', 'Contenants en aluminium', 'Emballages', null],
+  ['aluminum-foil-containers-2', 'aluminum foil containers 2.jpg', 'Contenants aluminium avec couvercle', 'Emballages', null],
+  ['aluminum-foil-containers', 'aluminum foil containers.jpg', 'Barquettes aluminium', 'Emballages', null],
+  ['assiettes-carton', 'assiettes en carton.jpg', 'Assiettes en carton', 'Emballages', null],
+  ['baroquettes', 'baroquettes.jpg', 'Baroquettes', 'Emballages', null],
+  ['barquettes-alimentaire', 'barquettes alimentaire.jpg', 'Barquettes alimentaires', 'Emballages', null],
+  ['boite-bi-comportament', 'boite bi-comportament.jpg', 'Boîte à deux compartiments', 'Emballages', null],
+  ['boite-carree', 'boite carrée.jpg', 'Boîte carrée', 'Emballages', null],
+  ['boite-repas', 'boite repas.jpg', 'Boîte repas', 'Emballages', null],
+  ['bol-kraft-2', 'bol kraft 2.jpg', 'Bol kraft grand', 'Emballages', null],
+  ['bol-kraft', 'bol kraft.jpg', 'Bol kraft', 'Emballages', null],
+  ['bols-plastique', 'bols en plastique.jpg', 'Bols en plastique', 'Emballages', null],
+  ['ramequins-plastique', 'ramequibs en plastique.jpg', 'Ramequins en plastique', 'Emballages', null],
+  ['yummy-box', 'yummy box.jpg', 'Yummy Box', 'Emballages', null],
+  ['cocotte', 'cocotte.jpg', 'Cocotte', 'Emballages', null],
+  ['mini-cocotte', 'mini cocotte.jpg', 'Mini cocotte', 'Emballages', null],
+  ['le-bol-salade', 'le bol salade.jpg', 'Bol à salade', 'Emballages', null],
+  
+  // Bouteilles et flacons
+  ['bouteille-blanc', 'bouteille bnac.jpg', 'Bouteille blanche', 'Emballages', null],
+  ['bouteille-plastique', 'bouteille en plastique.jpg', 'Bouteille en plastique', 'Emballages', null],
+  ['bouteille-jaune', 'bouteille jaune.jpg', 'Bouteille jaune', 'Emballages', null],
+  ['bouteille-noire', 'bouteille noire.jpg', 'Bouteille noire', 'Emballages', null],
+  ['bouteille-rouge', 'bouteille red.jpg', 'Bouteille rouge', 'Emballages', null],
+  
+  // Gobelets et tasses jetables
+  ['goblets-coffee-1', 'coblets coffee 1.jpg', 'Gobelets café 1', 'Emballages', null],
+  ['goblets-coffee-2', 'coblets coffet 2.jpg', 'Gobelets café 2', 'Emballages', null],
+  ['goblets-coffee-3', 'goblets coffee 3.jpg', 'Gobelets café 3', 'Emballages', null],
+  ['goblets-coffee-4', 'coblets coffee 4.jpg', 'Gobelets café 4', 'Emballages', null],
+  ['goblets-coffee-5', 'coblets coffee 5.jpg', 'Gobelets café 5', 'Emballages', null],
+  ['gobelets-dessert', 'coublets a dessert.jpg', 'Gobelets à dessert', 'Emballages', null],
+  ['gobelet-avec-couverture', 'gobelet avec couverture.jpg', 'Gobelet avec couvercle', 'Emballages', null],
+  ['gobelets-plastique', 'gobelets en plastique.jpg', 'Gobelets en plastique', 'Emballages', null],
+  ['gobelets-hexagonaux', 'gobelets hexagonaux.jpg', 'Gobelets hexagonaux', 'Emballages', null],
+  ['goblets-plastique-2', 'goblets en plastique.jpg', 'Gobelets jetables', 'Emballages', null],
+  ['flutes', 'flutes.jpg', 'Flûtes', 'Emballages', null],
+  
+  // Sacs et papiers
+  ['sac-kraft', 'sac kraft.jpg', 'Sac kraft', 'Emballages', null],
+  ['sac-kraft-2', 'sac kraft 2.jpg', 'Sac kraft moyen', 'Emballages', null],
+  ['sac-kraft-3', 'sac kraft 3.jpg', 'Sac kraft grand', 'Emballages', null],
+  ['sac-kraft-4', 'sac kraft 4.jpg', 'Sac kraft XL', 'Emballages', null],
+  ['papier-emballage', "papier d'emballage.jpg", "Papier d'emballage", 'Emballages', null],
+  ['sac-poubelle', 'sac poubelle.jpg', 'Sac poubelle', 'Emballages', null],
+  
+  // Pâtisserie et décoration
+  ['plateau-gateau', 'plateaux pour gateau.jpg', 'Plateaux pour gâteau', 'Emballages', null],
+  ['plateau-gateau-2', 'plateau gateau 2.jpg', 'Plateau gâteau doré', 'Emballages', null],
+  ['plateau-gateau-3', 'plateau gateau 3.jpg', 'Plateau gâteau argenté', 'Emballages', null],
+  ['sous-tarte-dore', 'sous tarte doré.jpg', 'Sous-tarte doré', 'Emballages', null],
+  ['sous-tarte-dore-2', 'sous tarte doré 2.jpg', 'Sous-tarte doré grand', 'Emballages', null],
+  ['moules-papier', 'moules en papier.jpg', 'Moules en papier', 'Emballages', null],
+  ['moule-papier-2', 'moule en papier 2.jpg', 'Moules cupcakes', 'Emballages', null],
+  
+  // Ustensiles jetables
+  ['cuilleres-soupe', 'cuiléres a soupe.jpg', 'Cuillères à soupe', 'Emballages', null],
+  ['pailles-noires', 'paille noires.jpg', 'Pailles noires', 'Emballages', null],
+  ['pailles-multicolor', 'pailles multicolor.jpg', 'Pailles multicolores', 'Emballages', null],
+  ['pailles-zigzag', 'pailles zig zag.jpg', 'Pailles zig zag', 'Emballages', null],
+  ['serviettes', 'serviettes.jpg', 'Serviettes en papier', 'Emballages', null],
+  
+  // Verrerie supplémentaire
+  ['verre-karma', 'glass karma.jpg', 'Verre Karma', 'Verrerie et tasses', null],
+  ['luminarc-service', 'luminarc service.jpg', 'Service Luminarc', 'Verrerie et tasses', null],
+  
+  // Accessoires professionnels - Hygiène
+  ['gants-vinyle', 'gants en vinyle.jpg', 'Gants en vinyle', 'Accessoires professionnels', null],
+  ['garanty-vinyle', 'garanty vinyle.jpg', 'Garanty vinyle', 'Accessoires professionnels', null],
+  ['hairnet-woven', 'hairnet woven.jpg', 'Filet à cheveux tissé', 'Accessoires professionnels', null],
+  ['hdpe-disposable', 'hdpe dispsable.jpg', 'Gants HDPE jetables', 'Accessoires professionnels', null],
+  
+  // Décoration et fêtes
+  ['kit-anniversaire', "kit d'anniversaire.jpg", "Kit d'anniversaire", 'Décoration', null],
+  ['kit-fete', 'kit de fete.jpg', 'Kit de fête', 'Décoration', null],
+  ['kit-fete-2', 'kit de fete 2.jpg', 'Kit de fête premium', 'Décoration', null],
+  ['neige-aerosol', 'neige en aérosol.jpg', 'Neige en aérosol', 'Décoration', null],
+  ['rubans-scintillants', 'rubans scintillants.jpg', 'Rubans scintillants', 'Décoration', null],
+  
   // Accessoires divers
   ['briquets', 'lighters.jpg', 'Briquets', 'Accessoires', 0.6],
+  ['colle-liquide', 'colle liquide.jpg', 'Colle liquide', 'Accessoires', null],
 ]
 
 export const products = productAssets.map(([handle, file, title, category, price]) => ({
@@ -243,7 +324,7 @@ export const products = productAssets.map(([handle, file, title, category, price
   description: `${title}, sélectionné par Big House.`,
   highlights: ['Sélection Big House', 'Livraison selon disponibilité'],
   similarHandles: [],
-  hidePrice: false,
+  hidePrice: price === null,
 }))
 
 export const categories = ['All', ...Array.from(new Set(products.map((p) => p.category)))]
